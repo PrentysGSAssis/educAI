@@ -1,0 +1,138 @@
+<style>
+        /* Estilo geral para o corpo da página */
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte principal */
+            line-height: 1.6; /* Define a altura entre as linhas de texto */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Cor de fundo cinza claro */
+            color: #333; /* Cor do texto principal (cinza escuro) */
+        }
+
+        /* Um container para centralizar o conteúdo */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        /* Estilo para o cabeçalho superior */
+        header {
+            background: #35424a; /* Cor de fundo do cabeçalho (azul acinzentado) */
+            color: #ffffff; /* Cor do texto do cabeçalho (branco) */
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid; /* Borda azul na parte inferior */
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+            font-size: 2.5em; /* Tamanho da fonte do título principal */
+        }
+        
+        header h1 .highlight {
+            color: #77aaff; /* Cor de destaque para "AI" */
+            font-weight: bold;
+        }
+
+        /* Seção de apresentação principal */
+        #showcase {
+            min-height: 400px;
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #showcase h2 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        #showcase p {
+            font-size: 1.2em;
+            max-width: 800px;
+        }
+
+        /* Seções de conteúdo (O que você vai aprender, etc) */
+        .content-section {
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .content-section h3 {
+            font-size: 2em;
+            color: #35424a;
+        }
+
+        /* Estilo para as caixas de benefícios */
+        #features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap; /* Permite que as caixas quebrem a linha em telas menores */
+            margin-top: 20px;
+        }
+
+        .feature-box {
+            background: #ffffff;
+            width: 30%;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+            border-radius: 5px; /* Bordas arredondadas */
+            text-align: center;
+            min-width: 250px;
+        }
+        
+        .feature-box h4 {
+            color: #77aaff;
+        }
+
+        /* Estilo para a seção de pré-inscrição */
+        #signup {
+            background: #35424a;
+            color: #ffffff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #signup form {
+            margin-top: 20px;
+        }
+
+        #signup input[type="text"], #signup input[type="email"] {
+            padding: 10px;
+            height: 25px;
+            width: 250px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        #signup button {
+            padding: 10px 20px;
+            height: 45px;
+            background: #77aaff;
+            border: none;
+            color: #ffffff;
+            cursor: pointer; /* Mostra uma mãozinha ao passar o mouse */
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        
+        #signup button:hover {
+            background: #5a8ee0; /* Cor do botão ao passar o mouse */
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background: #2c363d;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
